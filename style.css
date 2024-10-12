@@ -1,0 +1,75 @@
+
+        /* General body styling */
+        body {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url(download.webp);
+        }
+
+        /* Calculator container */
+        .calculator {
+            background-color: #ac24be63;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(170, 33, 33, 0.459);
+            width: 280px;
+            margin: 0 0 0 100px;
+            
+        }
+
+        /* Calculator screen */
+        .screen {
+            background-color: rgb(192, 197,179);
+            color: rgb(0, 0, 0);
+            font-size: 32px;
+            text-align: right;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            height: 25px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        /* Styling for buttons */
+        button {
+            background-color: #f0f0f0;
+            border: none;
+            font-size: 22px;
+            padding: 13px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            width: 20%;
+        }
+
+        /* Button hover effect */
+        button:hover { 
+            background-color: #a7a7a7;
+        }
+
+        /* Display grid for buttons */
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        #danger{
+            background-color: rgb(255, 130, 130);
+
+        }
+        #equal{
+            width: 100%;
+        }
+        .btn{
+            background-color: rgb(84, 164, 184);
+            color: white;
+        }
+    
